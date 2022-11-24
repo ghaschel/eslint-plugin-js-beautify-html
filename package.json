@@ -1,0 +1,62 @@
+{
+  "name": "eslint-plugin-js-beautify-html",
+  "version": "0.0.1",
+  "description": "Runs JS Beautify as an ESLint rule",
+  "repository": "git+https://github.com/ghaschel/eslint-plugin-js-beautify-html.git",
+  "homepage": "https://github.com/ghaschel/eslint-plugin-js-beautify-html#readme",
+  "author": "Guilherme Haschel",
+  "license": "MIT",
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "main": "eslint-plugin-js-beautify-html.js",
+  "types": "eslint-plugin-js-beautify-html.d.ts",
+  "files": [
+    "eslint-plugin-js-beautify-html.d.ts",
+    "eslint-plugin-js-beautify-html.js",
+    "worker.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "js-beautify",
+    "js-beautify-html",
+    "jsbeautify"
+  ],
+  "scripts": {
+    "publish": "standard-version && git push --follow-tags origin master && npm publish",
+    "prepare": "node -e \"process.env.NODE_ENV != 'production' && process.exit(1)\" || npm run prepare:dev",
+    "prepare:dev": "husky install"
+  },
+  "peerDependencies": {
+    "@types/eslint": ">=8.0.0",
+    "eslint": ">=8.0.0",
+    "js-beautify": ">=1.14.7"
+  },
+  "peerDependenciesMeta": {
+    "@types/eslint": {
+      "optional": true
+    },
+    "eslint-config-prettier": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@types/eslint": "^8.4.6",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.2",
+    "standard-version": "^9.5.0"
+  },
+  "resolutions": {
+    "eslint-plugin-js-beautify-html": "link:.",
+    "js-beautify": "^1.14.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
