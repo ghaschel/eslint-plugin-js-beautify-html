@@ -27,7 +27,7 @@
   "scripts": {
     "publish": "standard-version && git push --follow-tags origin master && npm publish",
     "prepare": "node -e \"process.env.NODE_ENV != 'production' && process.exit(1)\" || npm run prepare:dev",
-    "prepare:dev": "husky install"
+    "prepare:dev": "npx husky install"
   },
   "peerDependencies": {
     "@types/eslint": ">=8.0.0",
