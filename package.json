@@ -25,7 +25,7 @@
     "jsbeautify"
   ],
   "scripts": {
-    "publish": "standard-version && git push --follow-tags origin master && npm publish",
+    "release": "standard-version && git push --follow-tags origin main && npm publish",
     "prepare": "node -e \"process.env.NODE_ENV != 'production' && process.exit(1)\" || npm run prepare:dev",
     "prepare:dev": "npx husky install"
   },
