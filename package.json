@@ -36,9 +36,6 @@
   "peerDependenciesMeta": {
     "@types/eslint": {
       "optional": true
-    },
-    "eslint-config-prettier": {
-      "optional": true
     }
   },
   "devDependencies": {
