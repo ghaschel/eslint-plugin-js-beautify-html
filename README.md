@@ -1,17 +1,26 @@
 # eslint-plugin-js-beautify-html
 
+[![npm version](https://img.shields.io/npm/v/eslint-plugin-js-beautify-html.svg?maxAge=2592000)](https://www.npmjs.com/package/eslint-plugin-js-beautify-html)
+[![SemVer](https://img.shields.io/github/tag/ghaschel/eslint-plugin-js-beautify-html.svg)](https://img.shields.io/github/tag/ghaschel/eslint-plugin-js-beautify-html.svg)
+[![GitHub issues](https://img.shields.io/github/issues/ghaschel/eslint-plugin-js-beautify-html.svg)](https://github.com/ghaschel/eslint-plugin-js-beautify-html/issues)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ghaschel/eslint-plugin-js-beautify-html/blob/main/LICENSE)
+[![Known Vulnerabilities](https://snyk.io/test/github/ghaschel/eslint-plugin-js-beautify-html/badge.svg)](https://snyk.io/test/github/ghaschel/eslint-plugin-js-beautify-html)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 JS Beautify formatting through ESLint
 
 This is an effort to provide an ESLint-integrated alternative to Prettier for HTML formatting.
 
 ## Table of contents
 
-- [Installation](#installation)
-- [Configuration](#configuration)
-  - [.jsbeautifyrc file](#jsbeautifyrc-file)
-  - [.eslintrc.js file](#eslintrcjs-file)
-  - [ESLint's autofix](#eslints-autofix)
-- [Rules](#rules)
+- [eslint-plugin-js-beautify-html](#eslint-plugin-js-beautify-html)
+  - [Table of contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+    - [.jsbeautifyrc file](#jsbeautifyrc-file)
+    - [.eslintrc.js file](#eslintrcjs-file)
+    - [ESLint's autofix](#eslints-autofix)
+  - [Rules](#rules)
 
 ## Installation
 
