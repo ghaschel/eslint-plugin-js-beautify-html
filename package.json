@@ -47,7 +47,8 @@
     "standard-version": "^9.5.0"
   },
   "dependencies": {
-    "js-beautify": ">=1.14.7"
+    "js-beautify": ">=1.14.7",
+    "node-html-parser": "^6.1.4"
   },
   "resolutions": {
     "eslint-plugin-js-beautify-html": "link:.",

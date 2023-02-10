@@ -17,6 +17,7 @@
 
 const jsBeautify = require("js-beautify");
 const fs = require("fs");
+const htmlParser = require('node-html-parser');
 
 // ------------------------------------------------------------------------------
 //  Module Definition
@@ -118,6 +119,21 @@ const eslintPluginPrettier = {
         }
 
         jsBeautifyRc = jsBeautifyRc.html || context.options[1];
+
+        if (!htmlParser.valid(source)) {
+          return {
+            Program() {
+              context.report({
+                node: context.getScope().block,
+                message: "Unmatched tag in code",
+                loc: {
+                  line: 1,
+                  column: 1,
+                }
+              });
+            },
+          };
+        }
 
         const result = jsBeautify.html_beautify(source, {
           ...jsBeautifyRc,
