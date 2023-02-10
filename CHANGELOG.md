@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/ghaschel/eslint-plugin-js-beautify-html/compare/v0.0.6...v0.0.7) (2023-02-10)
+
+
+### Features
+
+* **validation:** added validation to check if HTML is valid ([3518f1e](https://github.com/ghaschel/eslint-plugin-js-beautify-html/commit/3518f1e8172aa214084c3c7339ca4b898bf35e85))
+
 ### [0.0.6](https://github.com/ghaschel/eslint-plugin-js-beautify-html/compare/v0.0.5...v0.0.6) (2022-11-24)
 
 
