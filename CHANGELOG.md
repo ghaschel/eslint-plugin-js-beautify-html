@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/ghaschel/eslint-plugin-js-beautify-html/compare/v0.0.7...v0.0.8) (2024-03-14)
+
+
+### Features
+
+* **dependencies update:** bumped js-beautify in order to adding support for the new angular syntax ([d5c67ce](https://github.com/ghaschel/eslint-plugin-js-beautify-html/commit/d5c67ce22493a4b8de89299cd418b6bbda38ddbb))
+
 ### [0.0.7](https://github.com/ghaschel/eslint-plugin-js-beautify-html/compare/v0.0.6...v0.0.7) (2023-02-10)
 
 
