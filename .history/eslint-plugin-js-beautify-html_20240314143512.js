@@ -141,7 +141,7 @@ const eslintPluginPrettier = {
 
         return {
           Program() {
-            if (source.trim() !== result.trim()) {
+            if (source !== result) {
               context.report({
                 node: context.getScope().block,
                 message: "Code not formatted",
