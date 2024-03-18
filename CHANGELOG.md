@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/ghaschel/eslint-plugin-js-beautify-html/compare/v0.0.9...v0.0.10) (2024-03-18)
+
+
+### Bug Fixes
+
+* **error detection:** fixed a false positive scenario ([9a47722](https://github.com/ghaschel/eslint-plugin-js-beautify-html/commit/9a47722d98922c68876349cac4549222b561070a))
+
 ### [0.0.9](https://github.com/ghaschel/eslint-plugin-js-beautify-html/compare/v0.0.8...v0.0.9) (2024-03-14)
 
 ### [0.0.8](https://github.com/ghaschel/eslint-plugin-js-beautify-html/compare/v0.0.7...v0.0.8) (2024-03-14)

@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-js-beautify-html",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Runs JS Beautify as an ESLint rule",
   "repository": "git+https://github.com/ghaschel/eslint-plugin-js-beautify-html.git",
   "homepage": "https://github.com/ghaschel/eslint-plugin-js-beautify-html#readme",
